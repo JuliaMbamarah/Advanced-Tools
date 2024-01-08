@@ -54,7 +54,7 @@ p {
 }
 
 .whitecolumn{
-  color: white;
+  background-color: white;
 }
 
 .secondary-link {
@@ -70,6 +70,10 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+}
+
+.ashcolumn{
+  color: black;
 }
 
 .about-paragraphs {
