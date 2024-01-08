@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  color: gray;
 }
 
 h1,
@@ -49,6 +50,10 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.whitecolumn{
   color: white;
 }
 
