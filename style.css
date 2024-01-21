@@ -5,8 +5,11 @@
 }
 
 body {
-  margin-top: 100px;
-  background-color: #d3d3d3;
+  margin: 10px;
+}
+
+.index {
+  background-color: rgb(249, 249, 249);
 }
 
 h1,
@@ -15,7 +18,7 @@ h3 {
   margin: 0;
 }
 
-h4{
+h4 {
   text-align: center;
 }
 
@@ -57,7 +60,7 @@ p {
   color: white;
 }
 
-.whitecolumn{
+.whitecolumn {
   background-color: white;
 }
 
@@ -94,6 +97,49 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.contact {
+  margin: 0 auto;
+}
+
+.purple {
+  background-color: blueviolet;
+  color: white;
+  border: 1px;
+  padding: 10px;
+  font-size: large;
+}
+
+.ash{
+  background-color:rgb(249, 249, 249);
+}
+
+.profilepic {
+  border-radius: 16px;
+}
+
+.navibar ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav li.active a {
+  color: purple;
+}
+
+.navibar li {
+  display: inline;
+  list-style: none;
 }
 
 @media (max-width: 500px) {
